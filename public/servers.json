@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "ttlSeconds": 43200,
+  "baseUrl": "https://YOUR-VERCEL-DOMAIN.vercel.app/wg/",
+  "servers": [
+    { "countryCode":"🇺🇸","countryName":"USA","serverId":"New York","configFile":"newyork.conf","isPremium":false },
+    { "countryCode":"🇯🇵","countryName":"Japan","serverId":"Tokyo","configFile":"tokyo.conf","isPremium":false },
+    { "countryCode":"🇳🇱","countryName":"Netherlands","serverId":"Amsterdam","configFile":"amsterdam.conf","isPremium":true },
+    { "countryCode":"🇬🇧","countryName":"UK","serverId":"London","configFile":"london.conf","isPremium":true },
+    { "countryCode":"🇦🇺","countryName":"Australia","serverId":"Sydney","configFile":"sydney.conf","isPremium":true }
+  ]
+}
